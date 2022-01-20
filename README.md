@@ -7,3 +7,4 @@ Maven Spring boot project for Java microsarvices, short sample, named CarsApplic
 Unit Test: CarsApplicationTest.java`
 
 Jenkins FreeStyle project
+
