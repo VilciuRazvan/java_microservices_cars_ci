@@ -1,1 +1,9 @@
-# java_microservices_cars_ci
+# CarsCI
+
+# branch master
+
+Maven Spring boot project for Java microsarvices, short sample, named CarsApplication.java
+
+Unit Test: CarsApplicationTest.java`
+
+Jenkins FreeStyle project
