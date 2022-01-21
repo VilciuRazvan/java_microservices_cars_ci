@@ -50,7 +50,7 @@ public class CarsApplicationTests {
 		List <Car> cars = response.getBody();
 		Assert.assertNotNull(cars);
 		Assert.assertEquals(6, cars.size());
-		Assert.assertEquals("Mercedes GLA", cars.get(1).getName());
+		Assert.assertEquals("Mercedes GLA", cars.get(0).getName());
 	}
 
 	@Test
@@ -62,7 +62,7 @@ public class CarsApplicationTests {
 				entity, String.class);
 
 		Assert.assertNotNull(response.getBody());
-		Assert.assertEquals("READY", response.getBody());
+		Assert.assertEquals("OK", response.getBody());
 	}
 
 }
